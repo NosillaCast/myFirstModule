@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import calcTime from "./timeCalc.mjs"
+import calcTime from "./timeCalc.mjs";
 
 let values = [3, 47,28]
-calcTime(values);
+let totalSec = calcTime(values);
+console.log(`Total seconds: ${totalSec}`);
