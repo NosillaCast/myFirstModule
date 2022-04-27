@@ -2,22 +2,23 @@
   "name": "myfirstmodule",
   "version": "1.0.0",
   "description": "Learning Modules",
-  "main": "script.mjs",
+  "main": "src/script.mjs",
   "type": "module",
   "jest": {
     "testEnvironment": "jest-environment-node",
     "transform": {}
   },
   "scripts": {
-    "docs": "docDir='./docs'; [[ -e \"$docDir\" ]] && rm -rf \"$docDir/\"*; npx jsdoc -c ./jsdoc.conf.json --destination \"$docDir/\" --template node_modules/docdash",
+    "docs": "docDir='./docs'; [[ -e \"$docDir\" ]] && rm -rf \"$docDir/\"*; npx jsdoc -c ./jsdoc.conf.json --destination \"$docDir/\"",
     "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "author": "Allison Sheridan",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.0.0",
+    "docdash": "^1.2.0",
     "eslint": "^8.9.0",
     "eslint-config-google": "^0.14.0",
+    "jest": "^28.0.0",
     "jsdoc": "^3.6.10"
   }
 }

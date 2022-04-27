@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 
-import calcTime from "./timeCalc.mjs";
+/**
+ * @fileoverview Main entry point for the script.
+ */
+import calcTime from "./calcTime.mjs";
 
 let values = [3, 47,28]
 let totalSec = calcTime(values);
