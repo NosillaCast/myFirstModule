@@ -1,7 +1,8 @@
 /**
  * calcTime will take an array of 3 numbers representing the hours, minutes and seconds and then calculate the total number of seconds that represents and return that value.
  * 
- * @input {Array} values - hours, minutes and seconds in an array
+ * @module calcTime
+ * @param {Array} values - hours, minutes and seconds in an array
  * @returns {Number} sec - total seconds calculated from array of inputs
  * @example calcTime([3,47,28]) // returns 13648
  */
