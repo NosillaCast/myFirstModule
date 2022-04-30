@@ -1,6 +1,12 @@
 {
+  "opts": {
+    "encoding": "utf8",
+    "pedantic": true,
+    "readme": "./README.md"
+},
   "plugins": ["plugins/markdown"],
   "source": {
-      "includePattern": ".+\\.(mjs|jsdoc)$"
+    "include": ["./src/"],
+    "includePattern": ".+\\.(mjs|jsdoc)$"
   }
 }
