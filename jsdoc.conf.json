@@ -1,4 +1,19 @@
 {
+  "docdash": {
+    "collapse": true,
+    "menu": {
+      "Podfeet Podcasts": {
+        "href": "https://podfeet.com/",
+        "target": "_blank"
+        },
+      "Programming by Stealth": {
+          "href": "https://pbs.bartificer.net/"
+      }
+    },
+    "search": true,
+    "sectionOrder": ["Modules", "Classes", "Functions"],
+    "static": true
+  },
   "opts": {
     "encoding": "utf8",
     "pedantic": true,
